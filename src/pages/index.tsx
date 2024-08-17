@@ -7,7 +7,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
       <div>
-          <VideoCard />
+          <VideoCard 
+              title={"#637 Ekantik Vartalaap & Darshan/ 15-08-2024/ Shri Hit Premanand Govind Sharan Ji Maharaj"}
+              image={"photo.jpg"}
+              thumbImage={"thumb.jpeg"}
+              author={"Bhajan Marg"}
+              views={"100k"}
+              timestamp={"2 days ago"}
+              />
       </div>
   )
 }
