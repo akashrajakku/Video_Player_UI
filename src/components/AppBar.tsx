@@ -3,7 +3,14 @@ import {SearchBar} from "./SearchBar";
 export function AppBar() {
   return (
     <div className="flex justify-between pt-2">
-      <div className="pl-5"><img src="logo.png" className="h-10 w-20"></img></div>
+      <div className="flex justify-between">
+      <div className="pt-2 pl-7 pr-5 pb-3"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+      </div>
+      <div className="pl-5 pt-1 w-40"><img src="logo.png" className="h-10 w-20"></img></div>
+      </div>
+      
       <div className="flex pr-5">
         <SearchBar />
       </div>
